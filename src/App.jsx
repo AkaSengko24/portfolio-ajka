@@ -1,7 +1,7 @@
 import { useState } from "react";
 import DataImage from "./data";
 import { listTools, listProyek } from "./data";
-import PreLoader from "./components/Preloader";
+import PreLoader from "./components/PreLoader.jsx";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
